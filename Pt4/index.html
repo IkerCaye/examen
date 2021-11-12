@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Pt4 Iker Cayetano</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </header>
+    <body>
+        <h1>Pt4 Iker Cayetano</h1>
+        <div id="form">
+        <label class="required">Nom:</label><br>
+        <input type="text" name="nom" id="nom" required><br>
+        <label>Cognom:</label><br>
+        <input type="text" name="cognom" id="cognom"><br>
+        <label class="required">E-mail:</label><br>
+        <input type="text" name="email" id="email" required><br>
+        <label>Adreça:</label><br>
+        <input type="text" name="adreça" id="adreça"><br><br>
+        
+        </div>
+        <script src="storage.js"></script>
+
+        <label>Marca els idiomes que parles:</label><br>
+
+        <input type="checkbox" id="checkbox1zaal1">Anglès</input>
+        <input type="checkbox" id="checkbox1zaal1">Francès</input>
+        <input type="checkbox" id="checkbox1zaal1">Italià</input>
+        <input type="checkbox" id="checkbox1zaal1">Català</input>
+
+        <br><label>Indica el sexe:</label><br>
+
+        <input type="radio">Home</input><br>
+        <input type="radio">Dona</input><br>
+
+        <br><label>Comentaris:</label><br>
+
+        <textarea></textarea><br>
+        <input type="button" id="ReserveerButton1" value="save" onclick="save()"/>
+        <input type="button" id="Wisbutton1" value="delete" onclick="deleteData()"/>
+    </body>
+</html>
